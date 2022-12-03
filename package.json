@@ -23,8 +23,8 @@
         "web-vitals": "^1.0.1"
     },
     "scripts": {
-        "start": "react-scripts --openssl-legacy-provider start",
-        "build": "set BUILD_PATH=../backend/adminpublic&& react-scripts build",
+        "build": "react-scripts build --openssl-legacy-provider",
+        "start": "react-scripts start --openssl-legacy-provider",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
